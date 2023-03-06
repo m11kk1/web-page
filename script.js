@@ -26,7 +26,7 @@ function login() {
   for (var i = 0; i < users.length; i++) {
     if (users[i].username == username && users[i].password == hashPassword(password)) {
       document.getElementById("message").innerHTML = "Login successful!";
-      window.location.href = "success.html"; // redirect to success page
+      window.location.href = "LoginProcess.html"; // redirect to success page
       return;
     }
   }
